@@ -42,7 +42,7 @@ declare option exist:serialize "method=xhtml media-type=text/html omit-xml-decla
 
 
 declare variable $imageWidth := 600;
-declare variable $imageBasePath := '../../../digilib/Scaler/';
+declare variable $imageBasePath := 'http://opera.uni-frankfurt.de:8089/digilib/Scaler/';
 
 
 

@@ -42,7 +42,7 @@ Ext.define('EdiromOnline.view.window.image.ImageViewer', {
     imgWidth: 0,
     imgHeight: 0,
 
-    imgPrefix: '../../../digilib/Scaler/',
+    imgPrefix: 'http://opera.uni-frankfurt.de:8089/digilib/Scaler/',
 
     shapes: null,
     shapesHidden: false,

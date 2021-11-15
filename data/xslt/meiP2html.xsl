@@ -71,6 +71,7 @@
             <xsl:if test="@fontfam | @fontname"> font-family: <xsl:value-of
                     select="string-join(@fontfam | @fontname,', ')"/>; </xsl:if>
             <xsl:if test="@fontweight"> font-weight: <xsl:value-of select="@fontweight"/>; </xsl:if>
+            <xsl:if test="@font-variant"> font-variant: <xsl:value-of select="@font-variant"/>; </xsl:if>
             <xsl:if test="@fontstyle"> font-style: <xsl:value-of
                     select="if(@fontstyle eq 'ital') then('italic') else(@fontstyle)"/>; </xsl:if>
             <xsl:if test="@fontsize"> font-size: <xsl:value-of select="@fontsize"/>; </xsl:if>

@@ -23,9 +23,8 @@
     <lang>en</lang>
     <version>1.0</version>
     <entries>
-
+        
         <!-- *** APPLICATION-UI *** -->
-
         <entry key="global_cancel" value="Cancel"/>
         <entry key="global_execute" value="Execute"/>
         <entry key="global_loading" value="Loading…"/>
@@ -75,7 +74,6 @@
         <entry key="view.window.AnnotationView_Grid" value="Grid view"/>
         <entry key="view.window.AnnotationView_Single" value="Single view"/>
         <entry key="view.window.AnnotationView_ListView" value="List view"/>
-
         <entry key="view.window.AnnotationView_PreviousAnnotation" value="Previous annotation"/>
         <entry key="view.window.AnnotationView_NextAnnotation" value="Next annotation"/>
         <entry key="view.window.AnnotationView_OpenAll" value="Open all sources"/>
@@ -83,8 +81,7 @@
         <entry key="view.window.HelpWindow_Title" value="Help"/>
         <entry key="view.window.TobBar_View" value="View"/>
 
-        <entry key="view.window.concordanceNavigator.ConcordanceNavigator_Title"
-            value="Concordances"/>
+        <entry key="view.window.concordanceNavigator.ConcordanceNavigator_Title" value="Concordances"/>
         <entry key="view.window.concordanceNavigator.ConcordanceNavigator_Show" value="Show"/>
 
         <entry key="view.window.search.SearchWindow_Title" value="Search"/>
@@ -124,7 +121,6 @@
         <entry key="view.window.text.TextView_categoriesMenu" value="Categories…"/>
         <entry key="view.window.text.TextView_gotoChapter" value="Go to chapter/number…"/>
         <entry key="view.window.text.TextView_viewMenu" value="Display"/>
-
 
         <!-- naming gui elements -->
         <entry key="view.desktop.Desktop" value="Desktop"/>
@@ -167,6 +163,7 @@
         <entry key="Annotation_plus_Title" value="Annotation: {0}"/>
         <entry key="Bars_from_to" value="Bars {0} to {1}"/>
         <entry key="Bar_n" value="Bar {0}"/>
+        
         <!-- XSL-FO specific -->
         <entry key="contentsWord" value="Table of contents"/>
     </entries>

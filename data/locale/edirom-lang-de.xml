@@ -25,7 +25,6 @@
     <entries>
         
         <!-- *** APPLICATION-UI *** -->
-        
         <entry key="global_cancel" value="Abbrechen"/>
         <entry key="global_execute" value="Ausführen"/>
         <entry key="global_loading" value="Lade…"/>
@@ -74,7 +73,6 @@
         <entry key="view.window.AnnotationView_Grid" value="Rasteransicht"/>
         <entry key="view.window.AnnotationView_Single" value="Einzelansicht"/>
         <entry key="view.window.AnnotationView_ListView" value="Listenansicht"/>
-        
         <entry key="view.window.AnnotationView_PreviousAnnotation" value="Vorherige Anmerkung"/>
         <entry key="view.window.AnnotationView_NextAnnotation" value="Nächste Anmerkung"/>
         <entry key="view.window.AnnotationView_OpenAll" value="Alle Quellen öffnen"/>

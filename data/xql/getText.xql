@@ -34,7 +34,7 @@ let $path := request:get-parameter('path', '')
 let $doc := doc($uri)/root()
 
 let $xslInstruction := $doc//processing-instruction(xml-stylesheet)
-let $xslInstruction := for $i in util:serialize($xslInstruction, ())
+let $xslInstruction := for $i in serialize($xslInstruction, ())
                         return
                         if(matches($i, 'type="text/xsl"'))
                         then(substring-before(substring-after($i, 'href="'), '"'))

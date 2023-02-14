@@ -25,9 +25,15 @@
         
         <!-- **CSS** -->
         <link rel="stylesheet" type="text/css" href="resources/css/edirom.css"/>
-        
+
+        <!-- **JQUERY** -->
+        <!--		<script type="text/javascript" src="resources/jquery/jquery-2.1.3.js"/>-->
+        <script>remote = require('electron').remote;</script>
+        <script>window.$ = window.jQuery = require('jquery');</script>
+
         <!-- **Raphael JS** -->
         <script type="text/javascript" src="scripts/raphael-min.js"/>
+        <script>window.Raphael = require('raphael');</script>
         
         <!-- **ACE** -->
         <script src="main/js/utils/ace/ace.js" type="text/javascript" charset="utf-8"/>

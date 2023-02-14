@@ -248,9 +248,9 @@
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="tei:forename"> </xsl:template>
+    <xsl:template match="tei:forename"/>
 
-    <xsl:template match="tei:nameLink"> </xsl:template>
+    <xsl:template match="tei:nameLink"/>
 
     <xsl:template match="tei:forename" mode="use">
         <xsl:if test="preceding-sibling::tei:forename">
@@ -328,7 +328,7 @@
                     test="following-sibling::* and
 			 (ancestor::tei:biblStruct  or ancestor::tei:biblFull)">
                     <xsl:call-template name="tei:makeText">
-                        <xsl:with-param name="letters"> </xsl:with-param>
+                        <xsl:with-param name="letters"/>
                     </xsl:call-template>
                 </xsl:if>
             </xsl:when>

@@ -44,7 +44,8 @@ Ext.define('de.edirom.online.view.window.image.ImageViewer', {
     imgWidth: 0,
     imgHeight: 0,
 
-    imgPrefix: '../../../digilib/Scaler/',
+    /* imgPrefix: '../../../digilib/Scaler/', */
+    imgPrefix: 'http://localhost:19105/digilib/Scaler/',
 
     shapes: null,
     shapesHidden: false,

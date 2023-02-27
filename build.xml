@@ -4,7 +4,7 @@
         <format property="buildDateTime" pattern="yyyyMMdd-HHmm"  locale="en,UK" />
     </tstamp>
     <xmlproperty file="expath-pkg.xml"/>
-    <property name="project.version" value="0.1"/>
+    <property name="project.version" value="0.9.2-rc2"/>
     <property name="project.app" value="EdiromOnline-OPERA"/>
     <property name="build.dir" value="build"/>
     

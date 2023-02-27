@@ -56,7 +56,7 @@ Ext.define('de.edirom.online.controller.desktop.Desktop', {
         
         this.desktop.taskbar.addListener('openHelp', this.openHelp, this);
         //TODO: Suchfenster einbauen
-        /*this.desktop.taskbar.addListener('openSearchWindow', this.openSearchWindow, this);*/
+        this.desktop.taskbar.addListener('openSearchWindow', this.openSearchWindow, this);
 
         this.desktop.taskbar.addListener('sortGrid', this.sortGrid, this);
         this.desktop.taskbar.addListener('sortHorizontally', this.sortHorizontally, this);

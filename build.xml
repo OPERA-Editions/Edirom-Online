@@ -4,12 +4,12 @@
         <format property="buildDateTime" pattern="yyyyMMdd-HHmm"  locale="en,UK" />
     </tstamp>
     <xmlproperty file="expath-pkg.xml"/>
-    <property name="project.version" value="0.9.2-rc2"/>
+    <property name="project.version" value="1.0.0"/>
     <property name="project.app" value="EdiromOnline-OPERA"/>
     <property name="build.dir" value="build"/>
     
     <property name="p.exist.dir" value="/Applications/eXist-db2.2.app/Contents/Resources/eXist-db/"/>
-    <property name="p.target.exist.url" value="xmldb:exist://localhost:19105/exist/xmlrpc/db/"/>
+    <property name="p.target.exist.url" value="xmldb:exist://localhost:19107/exist/xmlrpc/db/"/>
     <property name="p.target.user" value="admin"/>
     <property name="p.target.pass" value=""/>
     
@@ -44,7 +44,7 @@
             <fileset dir="${p.export.dir}" includes="collection.xconf"/>
         </xdb:store>
         
-        <xdb:xquery xmlns:xdb="http://exist-db.org/ant" uri="xmldb:exist://localhost:19105/exist/xmlrpc/db" queryfile="setPermissions.xql" user="${p.target.user}" password="${p.target.pass}"/>
+        <xdb:xquery xmlns:xdb="http://exist-db.org/ant" uri="xmldb:exist://localhost:19107/exist/xmlrpc/db" queryfile="setPermissions.xql" user="${p.target.user}" password="${p.target.pass}"/>
 <!--        <xdb:xquery xmlns:xdb="http://exist-db.org/ant" uri="xmldb:exist://localhost:19103/exist/xmlrpc/db" queryfile="reindex.xql" user="${p.target.user}" password="${p.target.pass}"/>-->
     </target>
     

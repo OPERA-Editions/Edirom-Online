@@ -16,6 +16,6 @@ cp -R ./resources ./build4desktopApp
 cp -R ./scripts ./build4desktopApp
 cp -R ./*.xml ./build4desktopApp
 cp -R ./*.js ./build4desktopApp
-cp -R ./edition-74338566.html ./build4desktopApp
+cp -R ./edition-74338567.html ./build4desktopApp
 cp -R ./*.xql ./build4desktopApp
 cp -R ./*.xconf ./build4desktopApp
